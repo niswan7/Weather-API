@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <title>WEATHER</title>
+    <link rel="stylesheet" href="weather.css" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="search">
+        <input
+          type="search"
+          placeholder="Enter city name"
+          spellcheck="false"
+          class="inputcity"
+        />
+        <img src="images/search.png" alt="Search img" class="Searchbt" />
+        <div id="none">
+          <h1>Please Enter a City Name !!</h1>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+    <div class="card">
+      <div class="content2">
+        <div class="clouds">
+          <div class="image"><img src="images/clouds.png" /></div>
+          <div class="temp">50°</div>
+          <div class="city">Calicut</div>
+        </div>
+      </div>
+      <div class="content3">
+        <div class="humidity">
+          <img src="images/humidity.png" />
+          <div class="humidity_per">
+            <br />
+            50%
+          </div>
+          Humidity
+        </div>
+        <div class="wind">
+          <img src="images/wind.png" />
+          <div class="windspeed">
+            <br />
+            15km/h <br />
+          </div>
+          Wind Speed
+        </div>
+      </div>
+    </div>
+    <script src="weather.js"></script>
+  </body>
+</html>
