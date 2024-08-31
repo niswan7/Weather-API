@@ -1,7 +1,7 @@
 
 # Weather API Web App
 
-![Weather App Preview](C:\Users\USER\Pictures\Screenshots\Screenshot 2024-08-28 202542.png)
+![Weather App Preview](https://github.com/niswan7/Weather-API/blob/main/sample.png)
 
 A simple weather web application that fetches and displays real-time weather data using a public weather API. This project is built with HTML, CSS, and JavaScript.
 
